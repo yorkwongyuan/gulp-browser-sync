@@ -1,20 +1,15 @@
+##gulp-browser-sync
+这个插件可以让页面`自动刷新`可谓刷新神器
+kindly check the code as follows:
 
-<table>
-	<tr>
-		<td>
-			# gulp-browser-sync
-			we can use this module to reload the html &amp; css by themselves
-			kindly check the code as follows:
-		</td>
-	</tr>
-</table>
+```javascript
 var gulp=require("gulp");
 var browserSync=require("browser-sync");
 var sass=require("gulp-sass");
 var reload=browserSync.reload;
 //服务器，运行的时候顺带运行“搬运工任务”
 gulp.task("server",['sass'],function(){
-	browserSync.init({
+    browserSync.init({
 		// server:{
 		// 	baseDir:"./",
 		// }

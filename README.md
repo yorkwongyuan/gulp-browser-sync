@@ -1,6 +1,13 @@
-# gulp-browser-sync
-we can use this module to reload the html &amp; css by themselves
-kindly check the code as follows:
+
+<table>
+	<tr>
+		<td>
+			# gulp-browser-sync
+			we can use this module to reload the html &amp; css by themselves
+			kindly check the code as follows:
+		</td>
+	</tr>
+</table>
 var gulp=require("gulp");
 var browserSync=require("browser-sync");
 var sass=require("gulp-sass");
